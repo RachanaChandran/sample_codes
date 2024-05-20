@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="calc-body">
+            <input type="text" id="num">
+        </div>
+        <div class="num-body">
+            <table>
+                <tr>
+                    <td>
+                        <input type="button" class="calc-btn" value="C" name="clear" onclick="clearscrn()"                        ()">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn sign" value="*" name="multi" onclick="calc()">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn sign" value="+" name="plus" onclick="calc()">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn sign"  value="-"name="minus" onclick="calc()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="calc-btn" value="1" name="one" onclick="disp(1)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn" value="2" name="two" onclick="disp(2)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn" value="3" name="three" onclick="disp(3)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn sign" value="/" name="divi" onclick="calc()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="calc-btn" value="4" name="four" onclick="disp(4)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn" value="5" name="five" onclick="disp(5)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn" value="6" name="six" onclick="disp(6)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn sign" value="AC" name="All clear" onclick="calc()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="calc-btn" value="7" name="seven" onclick="disp(7)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn" value="8" name="eight" onclick="disp(8)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn" value="9" name="nine" onclick="disp(9)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn sign" value="%" name="mode" onclick="calc()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="calc-btn" value="0" name="zero" onclick="disp(0)">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn sign" value="." name="point" onclick="calc()">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn sign" value="()" name="some" onclick="calc()">
+                    </td>
+                    <td>
+                        <input type="button" class="calc-btn" value="=" name="equal" onclick="equalClick()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
