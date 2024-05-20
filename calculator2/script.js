@@ -10,7 +10,3 @@ function calc()
     var val = document.getElementById('num').value;
     
 }
-function equalClick()
-{
-    
-}
